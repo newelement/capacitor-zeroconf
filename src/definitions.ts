@@ -15,6 +15,7 @@ export interface ZeroConfUnregisterRequest extends ZeroConfWatchRequest {
 
 export interface ZeroConfRegisterRequest extends ZeroConfUnregisterRequest {
   port: number;
+  addressFamily: string;
   props: { [key: string]: string };
 }
 

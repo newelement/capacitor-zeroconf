@@ -170,10 +170,11 @@ close() => Promise<void>
 
 #### ZeroConfRegisterRequest
 
-| Prop        | Type                                    |
-| ----------- | --------------------------------------- |
-| **`port`**  | <code>number</code>                     |
-| **`props`** | <code>{ [key: string]: string; }</code> |
+| Prop                | Type                                    |
+| ------------------- | --------------------------------------- |
+| **`port`**          | <code>number</code>                     |
+| **`addressFamily`** | <code>string</code>                     |
+| **`props`**         | <code>{ [key: string]: string; }</code> |
 
 
 #### ZeroConfUnregisterRequest
