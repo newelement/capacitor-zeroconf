@@ -78,7 +78,9 @@
   "swiftlint": "@ionic/swiftlint-config",
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
-    "plugins": ["@typescript-eslint"]
+    "plugins": [
+      "@typescript-eslint"
+    ]
   },
   "capacitor": {
     "ios": {
